@@ -1,7 +1,7 @@
 #include <Joystick.h>
 
-// Init hat buttons bullshit
-int hat_button_pins[4] =      {13, 12, 11,  10};
+// Init hat buttons 
+int hat_button_pins[4] =      {13, 12, 11,  10}; // Button pins, according to the angles in hat_button_angles_1d - 0 is up, 90 is right.
 int hat_button_angles_1d[4] = {0,  90, 180, 270};
 int hat_button_angles_2d[4][4] = {
   {0, 45, -1, 315},
@@ -52,7 +52,7 @@ void loop() {
     Joystick.setButton(i, !digitalRead(i));
   }
 
-  // Do hat buttons bullshit ...
+  // hat buttons logic
   int hats[2] = {-1, -1};
   int count = 0;
   for (int i=0; i<4; ++i){
