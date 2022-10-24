@@ -5,7 +5,7 @@ int hat_button_pins[4] =      {13, 12, 11,  10}; // Button pins, according to th
 int hat_button_angles_1d[4] = {0,  90, 180, 270};
 int hat_button_angles_2d[4][4] = {
   {0, 45, -1, 315},
-  {0, 90, 135, -1},
+  {45, 90, 135, -1},
   {-1, 135, 180, 225},
   {315, -1, 225, 270},
 };
