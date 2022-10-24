@@ -1,2 +1,3 @@
-# f-16-throttle-joystick
-F-16 Throttle/Joystick – For PC Simulator
+# F-16 Throttle/Joystick – For PC Simulator
+
+\#throttle \#f-16 \#joystick \#HOTAS
