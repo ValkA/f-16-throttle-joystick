@@ -12,7 +12,8 @@
 ## Software setup
 1. Download and Install Arduino software and Drivers - https://www.arduino.cc/en/software
 2. Download Use `f-16-throttle-joystick.ino` from this repo
-3. Open Arduino Throttle code and upload it to your Arduino Leonardo Board:
+3. You might need to install [ArduinoJoystickLibrary](https://github.com/MHeironimus/ArduinoJoystickLibrary).
+4. Open Arduino Throttle code and upload it to your Arduino Leonardo Board:
 
 ![image](https://user-images.githubusercontent.com/7328558/197633167-c6cf5991-133d-48b7-9cbb-6d5cc78eacdc.png)
 
