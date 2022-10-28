@@ -31,9 +31,5 @@
 
 <font size="7"> GO to FLY!! </font>
 
-Open Arduino Throttle code and upload it to your Arduino Leonardo Board.
-
-
-
 
 \#throttle \#f-16 \#joystick \#HOTAS
