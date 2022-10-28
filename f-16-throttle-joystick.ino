@@ -41,9 +41,9 @@ void setup() {
 }
 
 void loop() {
-  Joystick.setThrottle(map(analogRead(A4) , 0, 1023, -512, 512) * -1);
-  Joystick.setXAxis(map(analogRead(A3) , 0, 1023, -512, 512));
-  Joystick.setYAxis(map(analogRead(A2) , 0, 1023, -512, 512));
+  Joystick.setThrottle(map(analogRead(A4) , 0, 1023, -512, 512));
+  Joystick.setXAxis(map(analogRead(A3) , 0, 1023, -512, 512)*-1);
+  Joystick.setYAxis(map(analogRead(A2) , 0, 1023, -512, 512)*-1);
   Joystick.setRxAxis(map(analogRead(A1) , 0, 1023, -512, 512));
   Joystick.setRyAxis(map(analogRead(A5) , 0, 1023, -512, 512));
   Joystick.setRzAxis(map(analogRead(A0) , 0, 1023, -512, 512));
